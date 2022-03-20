@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="icon" href="../www/fonts/Cyber Security Aareness.png" type="image/icon type">
+    <style>
+      /* fallback */
+      @font-face {
+        font-family: "Material Icons";
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/materialicons/v52/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
+          format("woff2");
+      }
+
+      .material-icons {
+        font-family: "Material Icons";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+    <link rel="stylesheet" href="../www/css/style.css" />
+
+    <title>Cyber Security</title>
+  </head>
+
+  <body>
+    <center>
+      <div id="totalContainer">
+        <div id="heading">
+          <h1>Cyber Security Awareness</h1>
+        </div>
+        <center>
+          <div class="product-card">
+            <div id="1">
+              <img class="1" src="../www/img/email.png" />
+
+              <h3>Opening Emails from Unknown People</h3>
+              <button id="show1">Show Solution</button>
+            </div>
+          </div>
+
+          <br /><br />
+
+          <div class="product-card">
+            <div id="2">
+              <img class="2" src="../www/img/password.png" />
+              <h3>Having Weak Login Credentials</h3>
+              <button id="show2">Show Solution</button>
+            </div>
+          </div>
+          <br /><br />
+
+          <div class="product-card">
+            <div id="3">
+              <img class="3" src="../www/img/antivirus.png" />
+              <h3>Not Updating Antivirus Software</h3>
+              <button id="show3">Show Solution</button>
+            </div>
+          </div>
+          <br /><br />
+
+          <div class="product-card">
+            <div id="4">
+              <img class="4" src="../www/img/mobile.png" />
+              <h3>Using Unsecured Mobile Devices</h3>
+              <button id="show4">Show Solution</button>
+            </div>
+          </div>
+        </center>
+      </div>
+    </center>
+    <div id="popupBox">
+      <button class="close" id="close" style="color: black"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg></button>
+
+      <div
+        class="popup"
+        id="card"
+        style="text-align: center;"
+      >
+        <center>
+          <h1 class="popup-title" id="popup-title" style="width: auto">
+            Solution
+          </h1>
+          <p id="solution1"></p>
+          <p id="solution2"></p>
+        </center>
+      </div>
+      <!-- <script src="scripts.js"></script> -->
+
+      <script src="../www/js/script.js"></script>
+    </div>
+  </body>
+</html>
+
+<!--- <span class="material-icons-outlined">keyboard_backspace</span> ---->

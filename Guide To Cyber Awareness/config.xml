@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<widget
+    android-versionCode = '1'
+    id = 'com.SaiCodes.CyberAwareness'
+    version = '1.0.0'
+    xmlns = 'https://www.w3.org/ns/widgets'>
+
+    <name>Cyber Security Awareness</name>
+    <description>Gives you awareness and solution to cyber security problems</description>
+    <author>Sai</author>
+
+    <preference name = 'orientation' value = 'portrait'/> 
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <plugin name="cordova-plugin-splashscreen" />
+
+</widget>
